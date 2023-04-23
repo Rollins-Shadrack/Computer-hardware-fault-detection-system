@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hardware Expert System</title>
+</head>
+<body>
+    <h1>Hardware Expert System</h1>
+    <form action="{{ url_for('diagnose') }}" method="POST">
+        <label for="problem">Enter your problem separated by commas:</label><br>
+        <input type="text" id="problem" name="problem"><br>
+        <input type="submit" value="Diagnose">
+    </form>
+</body>
+</html>
