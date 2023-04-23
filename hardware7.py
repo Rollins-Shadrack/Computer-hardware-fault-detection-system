@@ -19,6 +19,7 @@ for row in dataset:
         'diagnosis': row['diagnosis'].lower(),
         'recommendation': row['recommendations'].lower()
     }
+    #print(rule)
     rules.append(rule)
 
 
